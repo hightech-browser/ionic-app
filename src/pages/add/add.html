@@ -1,0 +1,19 @@
+<ion-toolbar>
+  <ion-title>Add New Machine</ion-title>
+  <ion-buttons end>
+    <button (click)="dismiss()" ion-button icon-only>
+      <ion-icon name="close"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content padding>
+  <div class="margin-fix">
+    <ion-item>
+      <ion-label>Browser Code</ion-label>
+      <ion-input type="text" [(ngModel)]="hash" name="title"></ion-input>
+    </ion-item>
+    <ion-buttons end>
+      <button ion-button outline (click)="add()">Add</button>
+    </ion-buttons>
+  </div>
+</ion-content>

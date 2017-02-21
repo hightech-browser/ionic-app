@@ -8,3 +8,7 @@ $ ionic serve
 ```bash
 $ ionic serve --lab
 ```
+
+```bash
+$ ionic upload
+```
